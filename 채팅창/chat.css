@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+a{
+    text-decoration-line: none;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: #1089ff;
+    transition: all ease 0.5s;
+}
+
+#wrapper{
+    /* margin: 3px; */
+    /* width: 440px; */
+    border: 2px solid black;
+}
+#wrapperTop{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid #f1f1f1;
+    margin-top: 5px;
+}
+#varchar{
+    height: 100%;
+    margin-left: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+#varchar > a:visited{
+    color: black;
+}
+#varchar > a > span{
+    color: #01d28e;
+}
+#TopCenter{
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+#finish{
+    width: 15%;
+    height: 100%;
+    margin-bottom: 7px;
+    margin-right: 5px;
+}
+#finish > button{
+    width: 100%;
+    height: 30px;
+    border-top: none;
+    border-right: none;
+}
+
+
+
+#messagesWrap{
+    width: 100%;
+    height: 500px;
+}
+#youchat{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    color: black;
+}
+#mychat{
+    display: flex;
+    justify-content: flex-end;
+    background-color:  #01d28e;
+    border: 1px solid #01d28e;
+    color: white;
+}
+.chatText{
+    position: relative;
+    display: inline-block;
+    border-radius: 15px;
+    margin-top: 5px;
+    height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.12s;
+    margin-inline: 5px;
+    padding: 0 13px;
+}
+.chatText:hover{
+    opacity: 0.8;
+}
+
+
+
+
+#wrapperBottom{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+#sender{
+    width: 76%;
+    border-radius: 15px;
+    border: none;
+    padding: 0 13px;
+    margin-inline: 5px;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    outline: none;
+}
+.buttons{
+    width: 10%;
+}
+.buttonStyle{
+    border: 0.3px solid black;
+    background-color: #01d28e;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin-right: 5px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채팅창</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="wrapperTop">
+            <div id="varchar"><a href="maing.do" target="_blank">Var<span>char</span></a></div>
+            <div id="TopCenter">상담</div>
+            <div id="finish"><button class="buttonStyle" type="button" onClick="openSockct();">종료하기</button></div>
+        </div>
+        <div id="messagesWrap">
+            <div id="messages">
+                    <p id="youchat" class="chatText">안녕하세요</p>
+                    <p id="mychat" class="chatText">네 반가워요</p>
+                    <p id="mychat" class="chatText">상담 신청</p>
+            </div>
+        </div>
+        <div id="wrapperBottom">
+            <input type="text" id="sender" placeholder="Aa">
+            <button class="buttons buttonStyle" type="button" onclick="send();">전송</button>
+            <button class="buttons buttonStyle" type="button" onclick="javascripe:clearText();">clear</button>
+        </div>
+    </div>
+</body>
+
+</html>
